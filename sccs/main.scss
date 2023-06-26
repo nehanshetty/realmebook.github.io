@@ -1,0 +1,44 @@
+@import 'config';
+@import 'responsive';
+nav{
+    max-width:90%;
+    margin-left:5%;
+    background-color: $tertiary;
+      .logo1{
+        background-color: $primary; 
+        padding: 5px;
+        font-weight: bold;
+      }
+      #navbarSupportedContent{
+        a:hover{
+            color: $primary;
+        }
+      }
+}
+#header{
+  max-width:90%;
+  #productName{
+    font-weight: bold;
+  }
+}
+#recommendSection{
+  li{
+    list-style-type: none;
+  }
+}
+#overview{
+  // background-color: $grey;
+  //   background-image: linear-gradient(circle,#677cd9 0,#54555b 100%);
+
+#card1,#card2,#card3,#card11,#card12,#card13,#featurescard1, #featurescard2,#featurescard3,#featurescard4,#featurescard5,
+ #contentCard1,#contentCard2,#contentCardb1,#contentCardb2{
+  background-color: $secondary-subtle;
+}
+
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+

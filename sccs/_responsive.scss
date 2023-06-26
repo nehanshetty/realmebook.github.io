@@ -1,0 +1,22 @@
+@import 'config';
+
+
+@include media-lg {
+    #modalItem11, #modalItem12, #modalItem13,#modalItem21, #modalItem22,
+     #modalItem23,#modalItem31, #modalItem32, #modalItem33{
+        width: 350px;
+    }
+    #carouselExampleAutoplaying1{
+        height:700px;
+    }
+    #featurescard1, #featurescard2,#featurescard3,#featurescard4,#featurescard5{
+        width:18%;
+    }
+    #contentCard1, #contentCard2,#contentCardb1,#contentCardb2{
+        width:40%;
+    }
+    #note{
+        margin-left: 10%;
+    }
+}
+
